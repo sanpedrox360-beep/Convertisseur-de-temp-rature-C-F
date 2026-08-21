@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(55, 183, 197);
+}
+.home{
+    background-color: lightblue;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 4cm;
+}
+.conv{
+    font-size:large;
+    border:2px solid;
+    margin-top: 1cm;
+    padding-top: 1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+}
+.convFormat{
+    margin-bottom: 0.7cm;
+}
+.terminé{
+    margin-top: 1cm;
+}
+.resultat{
+    margin-top: 1cm;
+}

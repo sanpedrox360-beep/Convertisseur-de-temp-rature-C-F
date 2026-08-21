@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de température</title>
+    <link rel="stylesheet" href="conv.css">
+    <script src="conv.js" defer></script>
+</head>
+<body>
+    <div class="home">
+        <h1>Convertisseur °C / °F</h1>
+    </div>  
+    <div class="conv">
+        <div class="convFormat">
+        <label for="convFormat">Format de conversion :</label>
+            <select name="convFormat" id="convFormat" size="1" >
+                <option value="CelsiusToFahrenheit">Celsius vers Fahrenheit</option>
+                <option value="FahrenheitToCelsius">Fahrenheit vers Celsius</option>
+            </select>
+        </div>
+        <div class="inputTemp">
+            <label for="inputTemp">Saisissez la température :</label>
+            <input type="number" name="inputTemp" id="inputTemp" placeholder="Ex : 37 (°C / °F)">
+        </div>
+        <div class="terminé">
+            <button type="submit" onclick="afficher()">Terminé</button>
+        </div>
+        <div class="resultat">
+            <input type="text" id="resultat" readonly >
+        </div>
+    </div>  
+</body>
+</html>
