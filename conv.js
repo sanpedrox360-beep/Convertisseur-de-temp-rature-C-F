@@ -1,8 +1,6 @@
-// 1. Sélection des éléments HTML (avec 'document' en minuscules)
 const inputTemp = document.getElementById('inputTemp');
 const format = document.getElementById('convFormat');
 const affResultat = document.getElementById('resultat');
-// 2. Vos deux fonctions de conversion (très bien écrites !)
 function CelsiusToFahrenheit(temp) {
     let convTemp = (temp * 9/5) + 32;
     return convTemp;
